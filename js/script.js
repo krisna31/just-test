@@ -213,7 +213,9 @@ $(document).ready(function () {
 })(); // aos animation
 
 
-AOS.init(); // parallax effect
+AOS.init({
+  once: true,
+}); // parallax effect
 
 (function () {
   var parallax = $('.js-parallax');
